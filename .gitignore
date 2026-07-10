@@ -1,0 +1,11 @@
+/target
+/database
+/uploads
+/files
+ddns-go/.ddns_go_config.yaml
+ddns-go/ddns-go.exe
+test/
+__pycache__/
+frontend/src/App.css
+frontend/src/assets/
+frontend/public/icons.svg

@@ -1,0 +1,18 @@
+[package]
+name = "FileShare"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.9"
+config = { version = "0.15.25", features = ["toml"] }
+serde = { version = "1.0.228", features = ["derive"] }
+sqlx = { version = "0.9.0", features = ["runtime-tokio", "tls-rustls", "postgres", "chrono", "uuid"] }
+tokio = { version = "1.52.3", features = ["full"] }
+tower-http = { version = "0.7.0", features = ["cors", "fs"] }
+include_dir = "0.7"
+mime_guess = "2.0"
+tokio-stream = { version = "0.1.18", features = ["fs", "sync", "time"] }
+futures = "0.3.32"
+futures-util = "0.3.32"
+sha2 = "0.11.0"

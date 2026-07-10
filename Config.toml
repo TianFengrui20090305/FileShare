@@ -1,0 +1,14 @@
+[server]
+port = 114
+
+[upload]
+chunk_size_limit_mb = 50
+global_size_limit_mb = 10
+
+[cleanup]
+chunk_expire_hours = 1
+gc_interval_seconds = 30
+max_delete_concurrency = 4
+
+[database]
+url = "postgre://postgre@localhost:5432/database"
