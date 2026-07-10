@@ -4,7 +4,7 @@
 
 > **⚠️ 项目状态：学习向，中道崩殂**
 >
-> 本项目创作目的是学习 **Rust + Axum + Tokio + PostgreSQL** 等后端技术，以及 **React + TypeScript + TailwindCSS** 前端技术栈。
+> 本项目创作目的是学习 **Rust + Axum（Web 框架）+ Tokio（异步运行时）+ SQLx（数据库驱动）+ PostgreSQL + tower-http（中间件）+ SHA-256 + config（配置管理）+ serde（序列化）+ mime_guess + include_dir** 等后端技术，以及 **React + TypeScript + Vite + TailwindCSS + Heroicons** 前端技术栈。
 >
 > 学到一半玩不动了，没写完。代码仅供参考，不建议生产使用。
 
