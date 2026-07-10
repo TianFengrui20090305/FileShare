@@ -2,6 +2,7 @@
 /database
 /uploads
 /files
+.vscode/
 ddns-go/.ddns_go_config.yaml
 ddns-go/ddns-go.exe
 test/
